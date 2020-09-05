@@ -16,7 +16,7 @@ public class Driver {
 	public static WebDriver getDriver() {
 
 		System.setProperty("webdriver.chrome.driver",
-				System.getProperty("user.dir") + "/src/main/resources/chromedriver.exe");
+				System.getProperty("user.dir") + "/src/main/resources/85/chromedriver.exe");
 		if (driver == null) {
 			driver = new ChromeDriver();
 			JavascriptExecutor js = (JavascriptExecutor) driver;
